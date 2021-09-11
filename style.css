@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Header section css start */
+.header{
+    background-color: #7a6b7b;
+    background-image: linear-gradient(43deg, #7a6b7b 0%, #31697d 46%, #886b7b 100%);
+}
+.edit{
+    padding: 65px 0px 200px 0px;
+}
+ ul{
+    text-align: right;
+}
+.single-item ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff !important;
+} 
+/* Navbar responsive css start */
+ .navbar-light .navbar-toggler {
+    color: #ffffff;
+    border:none;
+    outline: 0;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image:none;
+    font-size: 25px;
+    padding-top: 4px;
+} 
+/* Navbar responsive css start */
+/* Header Content css start */
+.edit-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 30px;
+}
+.edit-content h1::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 85px;
+    transform: translateX(-50%);
+}
+.edit-content h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    padding-bottom: 300px;
+}
+/* Header Content css end */
+/* Header section css end */
+/* About me section css start */
+.aboutme{
+    padding: 40px 0px;
+}
+.aboutme-text{
+    padding-top: 110px;
+}
+.aboutme-text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 22px;
+}
+.aboutme-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 35px;
+    text-align: justify;
+}
+.para{
+    padding-bottom: 18px;
+}
+.aboutme-text a{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: 2px solid #00e0d0;
+    color: #00e0d0;
+    padding: 12px 30px;
+}
+/* About me section css end */
+/* Working process css section start */
+.working-process{
+    padding: 80px 0px;
+    background-color: #f6f6f6;
+}
+.title h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px; 
+}
+.title p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px 0px; 
+}
+.common{
+    padding: 45px;
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.common p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+}
+.work1{
+    background-color: #10c6fc;
+}
+.work2{
+    background-color: #835aeb;
+}
+.work3{
+    background-color: #002453;
+}
+.work4{
+    background-color: #ff2b4a;
+}
+/* Working process css section end */
+/* Experience and education css section start */
+.exp-edu{
+    background-color: #7a6b7b;
+    background-image: linear-gradient(43deg, #7a6b7b 0%, #31697d 46%, #886b7b 100%);
+    padding: 120px 0px; 
+}
+/* Experience part css */
+.exp{
+    padding: 60px 30px;
+    background-color: #4e637d;
+    color: #ffffff;   
+}
+.exp h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px; 
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
+.exp h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffffef;
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
+.exp p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #cdd1d8;
+    text-align: justify;
+    padding-bottom: 8px;
+}
+hr{
+    background-color: #ffffff;
+}
+/* Education part css */
+.edu{
+    padding: 60px 30px;
+    background-color: #4e637d;
+    color: #ffffff;
+}
+.edu h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px; 
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
+.edu h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffffef;
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
+.edu p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #cdd1d8;
+    text-align: justify;
+    padding-bottom: 8px;
+}
+/* Experience and education css section end */
+/* Latest works css section start */
+.portfolio{
+    padding: 90px 0px;
+}
+.box{
+    padding: 0px;
+    width: 100%;
+    height: 160px;
+}
+/* .box1{
+    width: 270px;
+    height: 200px;
+}
+.box2{
+   width: 270px;
+   height: 200px;
+} */
+.box3{
+    background-color: #835aeb;
+}
+.box4{
+    background-color: #002453;
+}
+.box5{
+    background-color: #ff2b4a;
+}
+.box6{
+    background-color: #002453;
+}
+.box7{
+    background-color: #ff2b4a;
+}
+/* Latest works css section end */
+/* Tastimunial css section start */
+.slider{
+    padding: 90px 0px;
+    background-color: #64cbc0;
+}
+/* Tastimunial css section start */
+.quote {
+    font-size: 30px;
+    color: #317688;
+}
+.carousl-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 30px 0px;
+    text-align: justify;
+}
+.signature h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.signature h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* Tastimunial css section end */
+/* Contact css section start */
+.contact{
+    background-color: #7a6b7b;
+    background-image: linear-gradient(43deg, #7a6b7b 0%, #31697d 46%, #886b7b 100%);
+    padding: 100px 0px;
+}
+.contact-form{
+    padding: 50px 30px;
+    background-color: #6f637b;
+    background-image: linear-gradient(62deg, #6f637b 0%, #4d637c 100%);
+    color: #ffffff;
+}
+.contact-form h4{
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.custom-form{
+    background-color: transparent;
+    color: #ffffff !important;
+    border-radius: 0;
+    padding: 8px 10px;
+    margin-bottom: 30px;
+}
+.custom-form::placeholder{
+    color: #ffffffef;
+}
+.form-control:focus {
+	background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+.custom-btn{
+    margin-top: 500px !important;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: 2px solid #00e0d0;
+    color: #00e0d0;
+    padding: 12px 30px;
+}
+a:hover {
+	 color: #00e0d0;
+}
+.add-content{
+    padding: 57px 30px;
+    background-color: #4d637c;
+    background-image: linear-gradient(160deg, #4d637c 0%, #6f637b 100%);
+    color: #ffffff;
+}
+.add-content h4{
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.add-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffffef;
+}
+.add-content a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Contact css section end */
+/* Footer css section start */
+.footer{
+    padding: 30px 0px;
+    background-color: #222222;
+}
+.icon{
+    color: #aaaaaa;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.icon:hover{
+    color: #ff2b4a;
+}
+.footer-content{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #aaaaaa; 
+}
+/* Footer css section end */
+
+/* 
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
